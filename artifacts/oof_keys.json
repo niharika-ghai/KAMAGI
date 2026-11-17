@@ -1,0 +1,1 @@
+["RF   | Snapshot only", "RF   | Time-series only", "RF   | Snapshot + time-series", "HGB  | Snapshot only", "HGB  | Time-series only", "HGB  | Snapshot + time-series", "HGB  | Snapshot + time-series (no location)", "ANN  | seq+static", "CNN1D| seq+static", "Transformer | seq+static", "SVM  | Snapshot + time-series", "Ensemble", "Ensemble + prior corr."]

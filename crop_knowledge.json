@@ -1,0 +1,224 @@
+{
+  "Wheat": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Mustard"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Mustard": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Wheat",
+      "Sugarcane"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Lentil": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Wheat",
+      "Mustard"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Fallow": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Wheat",
+      "Mustard"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "GreenPea": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Wheat",
+      "Mustard"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Sugarcane": {
+    "season": "long-duration (about 10-18 months; 12 is most common)",
+    "sowing_months": "Autumn Oct-Nov; spring Feb-Mar; late spring Apr-May in western UP after wheat harvest; Bihar Jan-Feb (secondary source)",
+    "peak_greenness_months": "From AgriFieldNet data: median NDVI peak day 10 (~mid Oct). Standing crop, so NDVI stays flat through the rabi window.",
+    "harvest_months": null,
+    "description": "Long-duration standing crop planted in autumn or spring. Autumn-planted cane grows slowly in winter and rapidly in spring.",
+    "often_confused_with": [
+      "Mustard",
+      "Wheat"
+    ],
+    "distinguishing_cues": "Flat NDVI like Fallow and Rice; radar (VV/VH) stays higher until about day 130 (early Feb) and then drops, unlike Fallow and Rice.",
+    "sources": [
+      {
+        "title": "Indian Farming (ICAR) - sugarcane planting times",
+        "url": "https://epubs.icar.org.in/index.php/IndFarm/article/download/105685/41413/273780"
+      },
+      {
+        "title": "Sugarcane Production in India (seasons and duration)",
+        "url": "https://vajiramandravi.com/current-affairs/?p=78073"
+      },
+      {
+        "title": "Sugarcane farming guide (Bihar timing; secondary source)",
+        "url": "https://www.agrifarming.in/sugarcane-farming-for-guide-beginners"
+      }
+    ]
+  },
+  "Garlic": {
+    "season": "rabi",
+    "sowing_months": "Mid-Oct to mid-Nov recommended (Oct-Nov across north India and Bihar; Sep-Nov quoted for the northern plains)",
+    "peak_greenness_months": "From AgriFieldNet data: median NDVI peak day 130 (~early Feb)",
+    "harvest_months": "Roughly Mar-Apr (derived from Oct-Nov planting plus a 4-5 month crop duration from a secondary source; not directly sourced)",
+    "description": "Cool-season bulb crop planted in autumn and harvested when the tops start to yellow.",
+    "often_confused_with": [
+      "Wheat",
+      "Mustard"
+    ],
+    "distinguishing_cues": "NDVI peak timing is close to Wheat, Gram and Lentil (peak day 130 vs 140). Cannot be separated from them by NDVI timing alone.",
+    "sources": [
+      {
+        "title": "Krishak Jagat - garlic planting window 15 Oct-15 Nov",
+        "url": "https://www.en.krishakjagat.org/?p=41275"
+      },
+      {
+        "title": "HORT 281 lecture notes - garlic planting by region",
+        "url": "https://eagriorg.github.io/eagri50/HORT281/lec16.html"
+      },
+      {
+        "title": "Garlic crop season and states (rabi Oct-Nov: Bihar, UP, others)",
+        "url": "https://www.slideshare.net/slideshow/garlic-harvesting-curing-and-storage-technologytech/119470356"
+      }
+    ]
+  },
+  "Maize": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Fallow"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Gram": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Wheat",
+      "Mustard"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Coriander": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Wheat",
+      "Lentil"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Potato": {
+    "season": "rabi",
+    "sowing_months": "Oct-Nov in the Indo-Gangetic plains; early crop 3rd week Sep to 1st week Oct, main crop Oct, late crop 3rd week Oct to 1st week Nov; planting limit about 5 Nov in the eastern plains (Bihar, Odisha, eastern UP)",
+    "peak_greenness_months": "From AgriFieldNet data: median NDVI peak day 100 (~early Jan)",
+    "harvest_months": "Jan-Feb (secondary source); Jan-Mar for some varieties",
+    "description": "Cool-season tuber crop grown in the plains from autumn planting to late winter harvest.",
+    "often_confused_with": [
+      "Mustard",
+      "Fallow"
+    ],
+    "distinguishing_cues": "Earlier and lower NDVI peak than Wheat and Mustard (data: peak day about 100, amplitude about 0.42 vs 0.61 for Wheat).",
+    "sources": [
+      {
+        "title": "Indian Farming (ICAR-CPRI) - planting limits by region",
+        "url": "https://epubs.icar.org.in/index.php/IndFarm/article/download/151966/54635/414102"
+      },
+      {
+        "title": "eAgri lecture notes - early/main/late crop dates",
+        "url": "https://eagriorg.github.io/eagri50/AGRO301/pdf/lec24.pdf"
+      },
+      {
+        "title": "PotatoPro Bihar (planting and harvest; secondary source)",
+        "url": "https://www.potatopro.com/bihar/potato-statistics"
+      }
+    ]
+  },
+  "Berseem": {
+    "season": null,
+    "sowing_months": null,
+    "peak_greenness_months": null,
+    "harvest_months": null,
+    "description": null,
+    "often_confused_with": [
+      "Wheat",
+      "Mustard"
+    ],
+    "distinguishing_cues": null,
+    "sources": []
+  },
+  "Rice": {
+    "season": "mainly kharif (Aman/Sali/Agahani winter rice, ~84% of rice); minor rabi/summer (Boro/Dalua/Garma) rice",
+    "sowing_months": "Kharif: nursery Jun to 2nd week Jul (Odisha). Rabi/summer: sown Nov-Feb; Odisha dry-season nursery 15 Nov-15 Dec; Boro transplanted after 2nd week of Jan",
+    "peak_greenness_months": "From AgriFieldNet data: median NDVI peak day 10 (~mid Oct), i.e. the tail of the kharif crop",
+    "harvest_months": "Kharif: Oct-Dec (varies by variety and state). Rabi/summer: Mar-Jun",
+    "description": "Dominant kharif crop in eastern India. Many fields are left fallow after the kharif harvest (rice-fallow), so the Oct-May window often shows little rice signal.",
+    "often_confused_with": [
+      "Fallow"
+    ],
+    "distinguishing_cues": "NDVI is almost identical to Fallow in this window. Radar differs only slightly (VV dips deepest around day 160). Expect low confidence when Rice and Fallow are the top two candidates.",
+    "sources": [
+      {
+        "title": "Rice in India: A Status Paper (seasons and harvest times)",
+        "url": "https://drdpat.bih.nic.in/Status%20Paper%20-%2002.htm"
+      },
+      {
+        "title": "ICAR-NRRI bulletin 222 (Odisha sowing windows)",
+        "url": "https://icar-nrri.in/wp-content/uploads/2024/05/2-NRRI_CR-DHAN-324.pdf"
+      },
+      {
+        "title": "Indian Journal of Agricultural Sciences - rice-fallow areas, eastern India",
+        "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/88838/36354/227744"
+      },
+      {
+        "title": "Indian Farming (ICAR) - Boro rice",
+        "url": "https://epubs.icar.org.in/index.php/IndFarm/article/download/126451/49499/352762"
+      }
+    ]
+  }
+}

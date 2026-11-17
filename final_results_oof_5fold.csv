@@ -1,0 +1,8 @@
+,Accuracy,BalancedAcc,MacroF1,WeightedF1
+Ensemble + prior correction (a=0.3),0.579,0.3368,0.2834,0.6032
+ANN (pixel+vote),0.6157,0.304,0.2758,0.6174
+CNN (patch+mask),0.5671,0.2866,0.2499,0.5746
+Ensemble (RF (field)+RF (pixel+vote)+ANN (pixel+vote)+CNN (patch+mask)),0.6476,0.2573,0.2448,0.6203
+RF (pixel+vote),0.6466,0.2411,0.2399,0.6146
+RF (field),0.6392,0.2259,0.2236,0.6033
+SVM (field),0.6455,0.2219,0.219,0.6091

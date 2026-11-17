@@ -1,0 +1,7 @@
+,Accuracy,BalancedAcc,MacroF1,WeightedF1
+HGB  | Snapshot + time-series,0.7444,0.3522,0.371,0.7266
+HGB  | Time-series only,0.7377,0.3332,0.3481,0.7181
+RF   | Snapshot + time-series,0.7289,0.3153,0.3352,0.7034
+RF   | Time-series only,0.7244,0.3041,0.3243,0.698
+HGB  | Snapshot only,0.6478,0.2505,0.2539,0.6263
+RF   | Snapshot only,0.6408,0.2263,0.2231,0.6035
